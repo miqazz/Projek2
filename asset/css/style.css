@@ -1,0 +1,151 @@
+body {
+    min-height: 2500px;
+}
+
+
+:root {
+    --putih-asap: #e8e4e6;
+    --hitam: #001e1d;
+    --hijau: #004643;
+    --kuning: #ffd803;
+    --kuning-agagelap: #f9bc60;
+}
+
+.navbar {
+    background: var(--putih-asap);
+}
+
+.navbar-brand img {
+    width: 75px;
+}
+
+.navbar-nav a.nav-link {
+    color: var(--hijau);
+    font-weight: 500;
+}
+
+.navbar .navbar-nav a.nav-link:hover {
+    color: var(--hitam);
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background: var(--putih-asap);
+}
+
+.jumbotron span {
+    color: var(--kuning-agagelap);
+}
+
+.jumbotronAbout img {
+    margin-top: -350px;
+    margin-bottom: -50px;
+}
+
+/* KOLABORASI */
+.kolaborasi img {
+    width: 100px;
+    padding: 10px;
+}
+
+/* GARIS */
+h2.judul::after {
+    border-bottom: 5px solid var(--hijau);
+    content: "";
+    display: block;
+
+    margin: auto;
+    width: 300px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+    background: var(--kuning-agagelap);
+}
+
+/* CARD BLOG */
+.blog .blog-info img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.blog .blog-info .text-body {
+    margin-left: -50px;
+    width: 10rem;
+}
+
+.blog .blog-info .text-body a {
+    float: left;
+    text-decoration: none;
+}
+
+.blog .blog-info .text-body a:hover {
+    color: var(--kuning);
+}
+
+.blog .blog-info .text-body span {
+    float: left;
+}
+
+.kartu{
+    width: 350px;
+}
+
+/* FOOTER */
+.footer ul {
+    list-style: none;
+}
+
+.footer a:hover {
+    color: var(--kuning);
+    transition-duration: .5s;
+}
+
+/* ABOUT */
+.about ul {
+    list-style: none;
+}
+
+/* RESPONSIF iPhone SE*/
+@media only screen and (max-width:375px) {
+    .upgrade img {
+        width: 200px;
+    }
+
+    .jumbotron h2 {
+        font-size: 20px;
+    }
+
+    .jumbotron p {
+        font-size: 15px;
+    }
+
+    .upgrade {
+        text-align: center;
+    }
+    .kartu{
+        width: 352px;
+    }
+}
+
+/* RESPONSIF iPad Air */
+@media only screen and (max-width:820px) {
+    .upgrade {
+        text-align: center;
+    }
+}
+
+/* RESPONSIF iPhone XR */
+@media only screen and (max-width:414px) {
+    .upgrade img {
+        width: 300px;
+    }
+}
+
+/* 
+lg itu ukuran dekstop
+md itu ukuran tablet
+sm itu ukuran hp ipon
+ */
