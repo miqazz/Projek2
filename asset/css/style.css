@@ -37,9 +37,13 @@ body {
     color: var(--kuning-agagelap);
 }
 
-.jumbotronAbout img {
-    margin-top: -350px;
-    margin-bottom: -50px;
+.jumbotronAbout{
+    background: var(--putih-asap);
+}
+
+.jumbotronAbout img{
+    margin-top: -225px;
+    margin-bottom: 20px;
 }
 
 /* KOLABORASI */
@@ -126,7 +130,7 @@ h2.judul::after {
         text-align: center;
     }
     .kartu{
-        width: 352px;
+        width: 350px;
     }
 }
 
